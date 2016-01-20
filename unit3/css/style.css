@@ -3,21 +3,42 @@ body {
 	margin:0;
 }
 
-h1 {
-	color: #fff;
-	background-color: #5a5a5a;
-    font-family: open sans;
-    font-size: 20px;
-    padding: 15px;
+ /* Masthead */
+
+.header {
+    background-color: #5a5a5a;
+    height: 60px;
+    width:100%;
 }
 
- /* This is primary navigation */
+.logo {
+	height: 15px;
+	width: 109px;
+	display: inline;
+	vertical-align: middle;
+	float:left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+	
+h1 {
+	color: #fff;
+    font-family: open sans;
+    font-size: 20px;
+    clear: none;
+    display: inline;
+    vertical-align: middle;
+    float:left;
+    margin-left:20px;
+}
+
+ /* Primary navigation */
 
 ul.primary-nav {
     list-style-type: none;
     background-color: #fff;
     margin: 0;
-    padding-top: 0;
+    padding-top: 20px;
 }
 
 li a.primary-nav {
@@ -37,12 +58,12 @@ li a:hover.primary-nav {
     color: #2c9ab7;
 }
 
-/* This is secondary navigation */
+/* Secondary navigation */
 
 ul.secondary-nav {
     list-style-type: none;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left:20px;
     width: 150px;
     background-color: #fff;
