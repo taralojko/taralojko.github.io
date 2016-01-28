@@ -31,6 +31,15 @@ h1 {
     line-height: 60px;
 }
 
+p {
+    color: #5a5a5a;
+    font-family: 'Libre Baskerville', serif;    
+    font-size: 12px;
+    line-height: 1.75em;
+    margin: 10em;
+    float: left;
+}
+
 .primary-nav {
     list-style-type: none;
     background-color: #fff;
