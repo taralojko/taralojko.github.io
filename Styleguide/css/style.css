@@ -1,0 +1,318 @@
+/* General Document */
+
+* {
+    padding:0;
+    margin:0;
+}
+
+body {
+}
+
+/* Containers */
+
+.main {
+    padding: 24px 32px;
+}
+
+.content {
+    padding: 48px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 572px;
+}
+
+.type-style-container-light {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 5px;
+    background-color: rgba(221, 221, 221, .25);
+}
+
+.type-style-container-dark {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 5px;
+    background-color: #010201;
+}
+
+.color-style-container {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 5px;
+    background-color: rgba(221, 221, 221, .25);
+}
+
+.copy-container {
+    width: 312px;
+    margin-right: 20px;
+    float: left;
+}
+
+.color-value-blue {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+    background-color: #1A527E;
+    border-radius: 5px;
+}
+
+.color-value-turquoise {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+    background-color: #82CECB;
+    border-radius: 5px;
+}
+
+.color-value-red {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+    background-color: #EE242F;
+    border-radius: 5px;
+}
+
+.color-value-yellow {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+    background-color: #F9F5CB;
+    border-radius: 5px;
+}
+
+.color-value-black {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+    background-color: #010201;
+    border-radius: 5px;
+}
+
+.color-value-white {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.description-container {
+    float: left;
+    clear: inherit;
+    width: 175px;
+}
+
+/* Search */
+
+.search {
+    float: right;
+    height: 48px;
+    margin-right: 32px;
+    margin-top: 24px;
+}
+
+/* Type Treatments for Style Guide */
+
+h1, h2, h3, p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #4C4E51;
+}
+
+h1 {
+    font-size: 65px;
+    clear: both;
+    text-align: center;
+    line-height: 96px; 
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    float: left;
+}
+
+h3.blocktext {
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    width: 120px;
+    clear: both;
+    margin: 72px auto 0px auto;
+    padding: 0px 20px 0px 20px;
+    background-color: rgba(221, 221, 221, .5);
+    border-radius: 5px 5px 0px 0px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 36px;
+    float: left;
+    margin-bottom: 24px;
+}
+
+p.body-copy {
+    font-size: 16px;
+    line-height: 24px;
+    float: left;
+}
+
+/* Type Treatments for Project Light Background */
+
+.copy {
+    font-family: 'Montserrat', sans-serif;
+    color: #4C4E51;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1.project {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4C4E51;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: left;
+}
+
+h2.project {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4C4E51;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+}
+
+p.small-copy {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4C4E51;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #4C4E51;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.description2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #4C4E51;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 6px;
+}
+
+/* Type Treatments for Project Dark Background */
+
+.copy-dark {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1.project-dark {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: left;
+}
+
+h2.project-dark {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+}
+
+p.small-copy-dark {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.description-dark {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.description2-dark {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 6px;
+}
+
+/* Primary Navigation */
+
+#primary-nav-container ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#primary-nav-container li {
+    display: inline;
+}
+
+#primary-nav-container li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4C4E51;
+    padding: 20px;
+}
+
+#primary-nav-container li a:hover {
+}
+
+/* Divider Styles */ 
+
+hr.style { 
+    border: 0; 
+    height: 1px; 
+    margin-bottom: 24px;
+    background-color: #DDDDDD;
+}
+
+
+
