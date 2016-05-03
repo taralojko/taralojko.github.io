@@ -1,3 +1,6 @@
+/* Meyer Reset */
+Need to put this in
+
 /* General Document */
 
 * {
@@ -6,6 +9,7 @@
 }
 
 body {
+	font-size: 16px;
 }
 
 /* Containers */
@@ -111,6 +115,23 @@ body {
     border-radius: 5px;
 }
 
+.icon-container {
+    width: 252px;
+    height: 50px;
+    margin-right: 80px;
+    float: left;
+}
+
+.photo-container {
+    width: 252px;
+    margin-right: 80px;
+    float: left;
+}
+
+img {
+    max-width: 250px;
+}
+
 .description-container {
     float: left;
     clear: inherit;
@@ -151,7 +172,7 @@ h2 {
 }
 
 h3.blocktext {
-    font-size: 16px;
+    font-size: 1em;
     line-height: 48px;
     text-align: center;
     width: 120px;
@@ -173,6 +194,18 @@ p.body-copy {
     font-size: 16px;
     line-height: 24px;
     float: left;
+}
+
+ul.body-copy {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #4C4E51;
+    margin-bottom: 24px;
+    padding-left: 20px;
+    float: left;
+    text-indent: 24px;
 }
 
 /* Type Treatments for Project Light Background */
@@ -303,16 +336,49 @@ p.small-copy-dark {
 }
 
 #primary-nav-container li a:hover {
+    color: #82CECB;
+}
+
+/* selected link */
+
+#primary-nav-container li a:active {
+    color: #0000FF;
 }
 
 /* Divider Styles */ 
 
-hr.style { 
+hr.divider { 
     border: 0; 
     height: 1px; 
+    margin-top: 0px;
     margin-bottom: 24px;
     background-color: #DDDDDD;
 }
 
+/* unvisited link */
 
+a.copy { 
+    color: #4C4E51; 
+    font-family: 'Open Sans', sans-serif;    
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 1px solid #4C4E51;
 
+}
+
+/* visited link */
+
+a.copy:visited {
+    color: #4C4E51; 
+    font-weight: 700;
+    text-decoration:none;
+}
+
+/* mouse over */
+
+a.copy:hover { 
+    color: #82CECB; 
+    font-weight: 300;
+    border-bottom: 1px solid #82CECB;
+}
